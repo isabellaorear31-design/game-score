@@ -1,4 +1,4 @@
-import { getLeaderboardData } from '../modules/game-session.js';
+import { getLeaderboardData } from './game-session.js';
 
 export function getLeaderboard() { 
   return getLeaderboardData();
