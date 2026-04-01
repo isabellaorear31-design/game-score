@@ -1,13 +1,13 @@
-import { GARFIELD_NEW_SCORE } from '../config/defaults.js';
+import { ISABELLA_NEW_SCORE } from '../config/defaults.js';
 import { getPlayer, getLeaderboardData, setLeaderboardData } from '../modules/game-session.js';
 
-export function recordGarfieldHighScore() {
+export function recordIsabellaHighScore() {
   const player = getPlayer();
 
   if (!player) { 
     return {
       success: false,
-      message: 'No player saved yet. Please save Garfield first.'
+      message: 'No player saved yet. Please save Isabella first.'
     };
   }
 
@@ -15,7 +15,7 @@ export function recordGarfieldHighScore() {
 
   leaderboard.push({
     name: player,
-    score: GARFIELD_NEW_SCORE
+    score: ISABELLA_NEW_SCORE
   });
 
   leaderboard.sort((a, b) => b.score - a.score);
@@ -24,6 +24,6 @@ export function recordGarfieldHighScore() {
 
   return {
     success: true,
-    message: `${player}'s score of ${GARFIELD_NEW_SCORE} has been recorded.`
+    message: `${player}'s score of ${ISABELLA_NEW_SCORE} has been recorded.`
   };
 }
