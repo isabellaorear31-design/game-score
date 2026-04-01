@@ -7,4 +7,4 @@ export const DEFAULT_LEADERBOARD = [
   { name: 'Arlene', score: 3000 }
 ];
 
-export const GARFIELD_NEW_SCORE = 9500;
+export const ISABELLA_NEW_SCORE = 9500;
