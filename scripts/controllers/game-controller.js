@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   savePlayerBtn.addEventListener('click', () => {
     savePlayer();
-    logAction('Saved player Garfield');
-    renderStatus('Player saved as Garfield.');
+    logAction('Saved player Isabella');
+    renderStatus('Player saved as Isabella.');
   });
 
   recordScoreBtn.addEventListener('click', () => {
-    const result = recordGarfieldHighScore();
+    const result = recordIsabellaHighScore();
     logAction('Record high score button clicked');
     renderStatus(result.message);
   });
