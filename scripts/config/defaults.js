@@ -1,4 +1,4 @@
-export const DEFAULT_PLAYER_NAME = 'Garfield';
+export const DEFAULT_PLAYER_NAME = 'Isabella';
 
 export const DEFAULT_LEADERBOARD = [
   { name: 'Garfield', score: 9000 },
