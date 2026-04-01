@@ -1,6 +1,6 @@
 * {
-    background: rgb(141, 0, 0);
+    background: rgb(80, 59, 108);
 }
 a {
-    text-decoration: none;
+    text-decoration: underline 4px solid #03dac6; 
 }
