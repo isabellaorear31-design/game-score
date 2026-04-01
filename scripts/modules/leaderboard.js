@@ -1,5 +1,5 @@
 import { getLeaderboardData } from './game-session.js';
 
-export function getLeaderboard() {
+export function getLeaderboard() { 
   return getLeaderboardData();
 }
