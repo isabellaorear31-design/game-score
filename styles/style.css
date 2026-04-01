@@ -1,4 +1,6 @@
 * {
     background: rgb(141, 0, 0);
 }
-
+a {
+    text-decoration: none;
+}
