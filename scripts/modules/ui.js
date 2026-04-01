@@ -1,7 +1,7 @@
 export function renderStatus(message) {
   const status = document.querySelector('#status-message');
   status.textContent = message;
-}
+} 
 
 export function renderLeaderboard(scores) {
   const list = document.querySelector('#leaderboard-list');
