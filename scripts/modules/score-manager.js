@@ -4,7 +4,7 @@ import { getPlayer, getLeaderboardData, setLeaderboardData } from './game-sessio
 export function recordGarfieldHighScore() {
   const player = getPlayer();
 
-  if (!player) {
+  if (!player) { 
     return {
       success: false,
       message: 'No player saved yet. Please save Garfield first.'
