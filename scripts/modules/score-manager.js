@@ -5,7 +5,7 @@ export function recordIsabellaHighScore() {
   const player = getPlayer();
 
   if (!player) { 
-    return {
+    return { 
       success: false,
       message: 'No player saved yet. Please save Isabella first.'
     };
